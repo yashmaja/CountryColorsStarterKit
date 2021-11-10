@@ -7,22 +7,28 @@
 
 </head>
 
-<body id="Color1">
-    <div id="Color2" class="centerElement halfWidth">
-        <div id="Color3" class="floatLeft halfWidth">
-            <h2 id="CountryName">Country Name Goes here!</h2>
-            <h2 id="OfficialLanguage">Official Language Goes here!</h2>
-            <h2 id="HelloWorld">Hello World Goes here!</h2>
+<body id="outsideColor" class="font neutralColor">
+    <h1>Welcome to the Country Colors Display!</h1>
+    <h4>Select a country to begin</h4>
+    <div id="rightPanelColor" class="centerElement halfWidth neutralColor">
+        <div id="leftPanelColor" class="floatLeft halfWidth neutralColor">
+            <h2 id="CountryName"></h2>
+            <h2 id="OfficialLanguage"></h2>
+            <h2 id="HelloWorld"></h2>
             <select id="CountryList">
+                <option value="">Select Country</option>
                 <option value="USA">USA</option>
                 <option value="Mexico">Mexico</option>
-                <option value="Algeria">Algeria</option>
+                <option value="France">France</option>
+                <option value="Italy">Italy</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Germany">Germany</option>
             </select>
-            <button onclick="SwitchCountry()">Swap Country</button>
+            <button onclick="SwitchCountry()">See Country Details</button>
+            <br><br>
+            <div id="flag"></div>
         </div>
     </div>
-
-
 </body>
 
 </html>

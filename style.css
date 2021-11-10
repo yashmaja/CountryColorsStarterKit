@@ -1,3 +1,7 @@
+.font {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
 .centerElement{
     display: block;
     margin-right: auto;
@@ -19,14 +23,6 @@ div{
     height: 700px;
 }
 
-#Color1{
-    background-color: red;
-}
-
-#Color2{
-    background-color: white;
-}
-
-#Color3{
-    background-color:blue;
+.neutralColor {
+    background-color: lavenderblush;
 }
